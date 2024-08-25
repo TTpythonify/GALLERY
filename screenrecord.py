@@ -20,7 +20,7 @@ def function_to_screen_record():
     timestamp = datetime.now()
     file_name = f"screen_record_{timestamp.strftime('%Y-%m-%d_%H-%M-%S')}.mp4"
 
-    output_folder = "gallery/screenrecord"
+    output_folder = "saved_gallery/screenrecord"
 
     output_file = os.path.join(output_folder, file_name)
 

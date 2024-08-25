@@ -17,7 +17,7 @@ def function_to_take_picture():
         # Create a timestamp for the filename
         timestamp = datetime.now()
         file_name = f"picture{timestamp.strftime('%Y-%m-%d_%H-%M-%S')}.png"
-        folder_path = "gallery/pictures"
+        folder_path = "saved_gallery/pictures"
 
         # Save the captured frame to a file
         file_path = os.path.join(folder_path, file_name)

@@ -27,7 +27,7 @@ def function_to_take_video():
     file_name = f"my_video_{timestamp.strftime('%Y-%m-%d_%H-%M-%S')}.mp4"
 
     # Define the output folder and file path
-    output_folder = "gallery/videos"
+    output_folder = "saved_gallery/videos"
     output_file = os.path.join(output_folder, file_name)
 
     fps = 60.0  # Frames per second

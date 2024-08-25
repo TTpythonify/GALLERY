@@ -28,7 +28,7 @@ class BaseWindow(ctk.CTk):
 
     def go_back(self):
         self.destroy()
-        main() 
+        open_gallery() 
 
     def display_images(self, image_paths):
         row = 0
@@ -169,9 +169,9 @@ class Gallery(ctk.CTk):
         self.destroy()
         ScreenrecordWindow().mainloop()
 
-def main():
+def open_gallery():
     app = Gallery()
     app.mainloop()
 
-if __name__ == "__main__":
-    main()
+
+open_gallery()

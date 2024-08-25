@@ -15,7 +15,7 @@ def function_to_take_screenshot():
     
     # Create a file path with the timestamp
     file_name = f"screenshot_{timestamp.strftime('%Y-%m-%d_%H-%M-%S')}.png"
-    folder_path = "gallery/screenshots"
+    folder_path = "saved_gallery/screenshots"
     file_path = os.path.join(folder_path, file_name)
     
     # Ensure the directory exists
